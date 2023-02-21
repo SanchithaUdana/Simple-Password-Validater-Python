@@ -12,8 +12,7 @@ def upChecker(name):
 
 # Space Checker function
 def spaceChecker(name):
-    g = len(name)
-    if name[0] == " " or name[g - 1] == " ":
+    if name[0] == " " or name[-1] == " ":
         spaceCheck = 0
         # print("Invalid")
     else:
